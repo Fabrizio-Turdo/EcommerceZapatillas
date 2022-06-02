@@ -3,7 +3,7 @@ import Api from '../apiClass';
 
 
 const router = Router();
-const api = new Api("./dataBase/zapatillas.json")
+const api = new Api("/dataBase/zapatillas.json")
 
 router.get('/', async (req,res)=>{
     const zapatillas = await api.findAll()

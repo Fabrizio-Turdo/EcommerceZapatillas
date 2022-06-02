@@ -15,7 +15,7 @@ export default class Api{
     async findById(id){
         try {
             const todos = await this.findAll()
-            const resultado = todos.find(e=>e.id===id)
+            const resultado = todos.find(e=>e.id==id)
             return resultado
         } catch (error) {
             throw new Error(`Error: ${error}`)

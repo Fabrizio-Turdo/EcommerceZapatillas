@@ -1,7 +1,7 @@
 import express from 'express';
 import morgan from 'morgan';
-import zapatillasRoutes from './routes/zapatillas';
-import cartRoutes from './routes/cart';
+import zapatillasRoutes from './router/zapatillas';
+import cartRoutes from './router/cart';
 
 const app = express();
 

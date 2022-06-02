@@ -2,9 +2,9 @@
   "name": "zapatillasecommerce",
   "version": "1.0.0",
   "description": "",
-  "main": "/BackEnd/src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon --exec ./BackEnd/server.js" 
+    "start": "nodemon --exec babel-node ./BackEnd/src/server.js" 
   },
   "author": "",
   "license": "ISC",

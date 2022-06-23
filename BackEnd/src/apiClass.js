@@ -36,5 +36,10 @@ export default class Api{
             throw new Error(`Error al guardar: ${error}`)
         }
     }
+    async eliminarById(id){
+        const contenido = this.findAll();
+        const eliminarId = contenido.filter(element =>element.id !== parseInt(id));
+        this.productos = eliminarId;
+    }
 
 }

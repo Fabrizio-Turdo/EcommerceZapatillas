@@ -4,8 +4,8 @@ import MongoStore from "connect-mongo";
 import session from 'express-session';
 // ---->
 import passport from "passport";
-import './src/passport/local.js'
-import './src/mongooseConnection/mongooseConnection.js'
+import './passport/local'
+import './mongooseConnection/mongooseConnection'
 import 'dotenv/config';
 
 
